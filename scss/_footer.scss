@@ -1,0 +1,29 @@
+footer {
+  .footer-top {
+    background-color: black;
+    height: 20vh;
+    img {
+      width: 5rem;
+      display: flex;
+    }
+    p {
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .footer-bottom {
+    background-color: white;
+    height:10vh ;
+    display: flex;
+    align-items: center;
+
+    .facebook {
+      background-color: blue;
+      width: 60px;
+      height: 40px;
+      margin-right: 20px;
+    
+    }
+  }
+}

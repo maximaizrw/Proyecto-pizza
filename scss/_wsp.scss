@@ -1,0 +1,43 @@
+.wsp {
+  background-image: url(../assets/fondo-wsp.jpeg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+
+  .container-fluid{
+    height: 100%;
+    .row{
+        height: 100%;
+        align-items: center;
+      }
+  }
+
+  .box {
+    background: rgba(251, 236, 13, 0.6);
+    border-radius: 56px;
+    position: relative;
+    display: flex;
+
+    .box-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+}
+
+.wsp::before {
+  content: "";
+  display: block;
+  background: inherit;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  filter: blur(3px);
+}
